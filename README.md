@@ -1,13 +1,13 @@
-# Pallycon Multi-DRM Flutter SDK
+# DoveRunner Multi-DRM Flutter SDK
 
-`PallyCon Multi-DRM Flutter SDK` (`Flutter SDK` for short) is a product that makes it easy to apply Widevine and FairPlay DRM when developing media service apps in a Flutter-based cross-platform application development environment. 
+`DoveRunner Multi-DRM Flutter SDK` (`Flutter SDK` for short) is a product that makes it easy to apply Widevine and FairPlay DRM when developing media service apps in a Flutter-based cross-platform application development environment. 
 It supports streaming and downloading scenarios of content encrypted with Widevine and FairPlay DRM on Android and iOS apps developed with Flutter.
 
 ## Packages
 ```
-PallyCon DRM Flutter SDK
+DoveRunner DRM Flutter SDK
     |
-    ├─ pallycon-drm-sdk     // PallyCon DRM Flutter SDK
+    ├─ pallycon-drm-sdk     // DoveRunner DRM Flutter SDK
     |    ├─ pallycon_drm_sdk
     |    ├─ pallycon_drm_sdk_android
     |    ├─ pallycon_drm_sdk_interface
@@ -20,7 +20,7 @@ PallyCon DRM Flutter SDK
 
 
 ### pallycon-drm-sdk
-- `pallycon-drm-sdk` is a SDK that provides an interface to use PallyCon services in flutter.
+- `pallycon-drm-sdk` is a SDK that provides an interface to use DoveRunner services in flutter.
   - Provides download and streaming playback functions on Android through `PallyCon Widevine Android SDK`.
   - Provides download and streaming playback functions on iOS through `PallyCon FPS iOS SDK`.
 - For more details about `pallycon-drm-sdk`, please refer to the [README.md][1] file.
